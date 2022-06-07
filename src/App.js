@@ -13,7 +13,7 @@ export default function App() {
           <a
             href="https://github.com/RoseAmS/weather-react-app"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
             className="link-footer"
           >
             Open-source code
