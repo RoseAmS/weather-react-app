@@ -1,0 +1,106 @@
+/* Screen size */
+
+@media only screen and (min-width: 200px) {
+  html {
+    zoom: 0.6;
+    font-size: 80%;
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  html {
+    zoom: 0.8;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  html {
+    zoom: 1;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  html {
+    zoom: 1.1;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  html {
+    zoom: 1.2;
+  }
+}
+
+html {
+  height: max-content;
+  margin: 0 auto;
+  max-height: 700px;
+}
+
+/* Elements */
+
+body {
+  font-family: Recursive;
+  padding: 20px;
+  font-size: 16px;
+  color: #777666;
+  max-height: 700px;
+}
+
+h1 {
+  font-weight: 700;
+  margin: 0;
+  font-size: 25px;
+  line-height: 48px;
+}
+
+h2 {
+  font-weight: 500;
+  margin: 0;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 40px;
+}
+
+h3 {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  margin: 0 0 20px;
+  padding: 0;
+}
+
+form {
+  margin: 20px 0;
+}
+
+sup {
+  font-size: 20px;
+  position: relative;
+  top: -25px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration-line: none;
+  color: #9d9c9c;
+}
+
+.App .footer {
+  margin: auto;
+  margin-top: -10px;
+  font-size: 14px;
+  max-width: 600px;
+  color: blueviolet;
+  font-weight: 600;
+}
+
+.App .link-footer {
+  color: #708090;
+}

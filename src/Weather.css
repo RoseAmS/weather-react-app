@@ -1,0 +1,87 @@
+.Weather {
+  margin: 30px auto;
+  padding: 10px 10px 50px 15px;
+  max-width: 600px;
+  border-radius: 15px;
+  background: radial-gradient(
+    250px at 10.9% 48.6%,
+    rgb(194, 227, 255) 39.3%,
+    rgb(226, 196, 253, 0.25) 72.5%
+  );
+}
+
+.Weather .search-button {
+  margin-top: -2px;
+  margin-left: -15px;
+}
+
+.Weather .curr-location {
+  margin-left: 8px;
+  color: gray;
+  font-size: 25px;
+}
+
+.Weather .curr-location:hover {
+  color: #0d6efd;
+}
+
+.Weather .icon-main {
+  padding: 0;
+  margin-top: 15px;
+  margin-right: -15px;
+  display: inline-block;
+}
+
+.Weather .img-weather {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 15px;
+  padding: 0;
+}
+
+.Weather .weather-app {
+  border: 1px solid #dadde1;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 30px auto;
+}
+
+.Weather .temperature {
+  font-size: 55px;
+  font-weight: 800;
+  margin-top: -15px;
+}
+
+.Weather .temp-units {
+  margin-left: -10px;
+  color: #9d9c9c;
+}
+
+.Weather .temp-units .active {
+  color: #777777;
+  cursor: default;
+}
+
+.Weather .weather-forecast {
+  font-size: 14px;
+  margin-top: -15px;
+  margin-bottom: -10px;
+  text-align: center;
+}
+
+.Weather .weather-forecast-date {
+  margin-bottom: -20px;
+}
+
+.Weather .weather-forecast-temperature {
+  font-weight: bold;
+  margin-top: -10px;
+}
+
+.Weather .weather-forecast-icon {
+  margin-top: -15px;
+}
+
+.Weather .weather-forecast-temp-min {
+  opacity: 0.7;
+}
