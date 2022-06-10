@@ -63,23 +63,23 @@
 }
 
 .Weather .weather-forecast {
-  font-size: 14px;
-  margin-top: -15px;
-  margin-bottom: -10px;
+  font-size: 1rem;
+  margin-top: -1rem;
+  margin-bottom: -2rem;
   text-align: center;
 }
 
 .Weather .weather-forecast-date {
-  margin-bottom: -20px;
+  margin-bottom: -1.2rem;
 }
 
 .Weather .weather-forecast-temperature {
   font-weight: bold;
-  margin-top: -10px;
 }
 
 .Weather .weather-forecast-icon {
-  margin-top: -15px;
+  margin-top: 1.5rem;
+  margin-bottom: 0.7rem;
 }
 
 .Weather .weather-forecast-temp-min {
