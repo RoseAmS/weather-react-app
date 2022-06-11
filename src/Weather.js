@@ -71,9 +71,9 @@ export default function Weather(props) {
                 />
 
                 {/* Current location icon */}
-                <span>
+                {/* <span>
                   <i className="fa-solid fa-location-dot curr-location"></i>
-                </span>
+                </span> */}
               </div>
             </div>
           </form>
