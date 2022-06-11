@@ -42,5 +42,7 @@ export default function WeatherIcon(props) {
 
   const newIcon = codeMapping[props.code];
 
-  return <img src={newIcon} alt={props.alt} width={props.width} />;
+  return (
+    <img src={newIcon} alt={props.alt} title={props.alt} width={props.width} />
+  );
 }
