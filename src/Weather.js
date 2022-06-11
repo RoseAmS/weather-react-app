@@ -11,8 +11,6 @@ export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ search: false });
 
   function handleResponse(response) {
-    // console.log(response.data);
-
     setWeatherData({
       search: true,
       temperature: response.data.main.temp,
@@ -24,11 +22,12 @@ export default function Weather(props) {
       humidity: response.data.main.humidity,
       wind: Math.round(response.data.wind.speed),
       icon: response.data.weather[0].icon,
+      coord: response.data.coord,
     });
   }
 
   function search() {
-    const apiKey = "34c983dcfcb96cce74bfa8ccc56e5ffe";
+    const apiKey = "5f472b7acba333cd8a035ea85a0d4d4c";
     const units = "metric";
     const apiUrl = "https://api.openweathermap.org/data/2.5/weather";
 
@@ -80,7 +79,7 @@ export default function Weather(props) {
           </form>
           {/* Searched city details */}
           <WeatherInfo info={weatherData} />
-          <WeatherForecast />
+          <WeatherForecast coord={weatherData.coord} />
         </div>
       </div>
     );
